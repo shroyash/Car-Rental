@@ -1,0 +1,10 @@
+.car-rent__img {
+    background: linear-gradient(rgba(241, 85, 12, 0.5), rgba(228, 98, 24, 0.5)),
+      url("../../assests/all-img/slide-img/a.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px;
+    height: 24vh;
+    left: 5px;
+  }
