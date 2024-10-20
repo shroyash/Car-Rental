@@ -8,3 +8,9 @@
     height: 24vh;
     left: 5px;
   }
+.car-container{
+  box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+span,i,h6{
+  margin-bottom: 20px;
+}

@@ -6,7 +6,7 @@ const CarRent = () => {
   return (
     <div>
       <section className='car-rent relative'>
-        <Container className=' car-container absolute bg-white h-90 top-[-40px] inset-x-0 p-4'>
+        <Container className=' car-container absolute bg-white h-90 top-[-50px] inset-x-0 p-4'>
           <Row className='align-items-center'>
             <Col lg='3' md='3' sm='3' className='car-rent__img flex items-center'>
               <h3 className='font-extrabold'>Search your best <br/>Cars here</h3>
@@ -38,7 +38,7 @@ const CarRent = () => {
                       <Input type="date" className='form-control' />
                     </FormGroup>
                     <FormGroup>
-                      <Button className='btn btn-primary w-100'>Find a Car</Button>
+                      <Button className='btn bg-primary w-100'>Find a Car</Button>
                     </FormGroup>
                   </Col>
                 </Row>

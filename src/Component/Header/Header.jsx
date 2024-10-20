@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="header bg-[#000d6b] hidden sm:block">
+      <header className="header bg-[#000d6b] hidden sm:block ">
         <div className="header__top">
           <Container>
             <Row>
@@ -99,7 +99,7 @@ const Header = () => {
         </Container>
       </header>
 
-      <header>
+      <header className='main-nav'>
         <div className="main__navbar">
           <Container>
             <div className="navigation__wrapper d-flex align-items-center justify-content-between">

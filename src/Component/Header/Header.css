@@ -31,22 +31,6 @@
   color: #f9a826;
 }
 
-.search__box {
-  border: 1px solid #7c8a972f;
-  padding: 7px 12px;
-  display: flex;
-  align-items: center;
-  border-radius: 50px;
-  background: #020a4de9;
-}
-
-.search__box input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #fff;
-  cursor: pointer;
-}
 
 .search__box input::placeholder {
   font-size: 0.8rem;
@@ -65,9 +49,14 @@
   .nav__right {
     display: none;
   }
+ .main-nav{
+  height: 12vh;
+ 
+ }
 
   .mobile__menu {
     display: block;
+    margin-top: 0px;
   }
 
   .mobile__close {
