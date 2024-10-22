@@ -1,10 +1,9 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import './carRent.css';
+
 
 const Service = () => {
   return (
-    <div className="service h-screen flex items-center justify-center  ">
+    <div className="service container mx-auto mt-16 mb-16">
       <div className="text-center">
         <div className="service__heading text-yellow-600 font-bold mb-3 ">
           <p>See Our</p>
