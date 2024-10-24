@@ -11,7 +11,11 @@ export default {
       },
     },
   },
-  plugins: [
-
-  ],
+  plugins: [],
+  variants: {
+    extend: {
+      opacity: ['group-hover'],
+      transform: ['group-hover'],
+    },
+  },
 }

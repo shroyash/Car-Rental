@@ -3,7 +3,7 @@ import Img from '../../assests/all-img/car-img/bmw-offer.png';
 
 const About = () => {
   return (
-    <div className="about-section container mx-auto mt-6 md:mt-20 mb-22 flex flex-col md:flex-row lg:flex-row">
+    <div className="about-section container mx-auto mt-6 md:mt-12 mb-22 flex flex-col md:flex-row lg:flex-row">
       <div className="lg:w-1/2 md:w-1/2  p-4">
         <div className="about-section__heading mb-2">
           <p className="text-yellow-500">About Us</p>

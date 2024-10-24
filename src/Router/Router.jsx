@@ -7,6 +7,7 @@ import Blog from '../page/Blog';
 import BlogDetail from '../page/BlogDetail';
 import CarDetail from '../page/CarDetail';
 import Notfound from '../page/Notfound';
+import Contact from '../page/Contact';
 
 const Router = () => {
   return (
@@ -18,6 +19,7 @@ const Router = () => {
       <Route path="/car/:slug" element={<CarDetail />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:slug" element={<BlogDetail />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Notfound />} />
     </Routes>
   );
